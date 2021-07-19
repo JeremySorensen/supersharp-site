@@ -1,0 +1,165 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+    background-color: #dddddd;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36pt;
+}
+
+ul#top-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.top-nav {
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    color: #555555
+}
+
+a.top-nav-current {
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    color: #333355;
+    font-weight: 700;
+}
+
+a.top-nav:hover {
+    background-color: #aaaaaa;
+    color: black;
+}
+
+a.top-nav-current:hover {
+    background-color: #aaaaaa;
+    color: black;
+}
+
+#nav-logo {
+    padding: 14px;
+}
+
+#banner {
+    background-color: #333355;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+h1.banner {
+    color: #dddddd;
+    max-width: 700px;
+}
+
+div#main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+}
+
+div#main-content img {
+    max-width: 400px;
+}
+
+p.main {
+    width: 75%;
+}
+
+footer {
+    background-color: #222222;
+    color: #cccccc;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px
+}
+
+div.markets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+div.market {
+    margin: 8px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2.footer {
+    align-self: center;
+}
+
+h3.footer {
+    align-self: center;
+    font-size: 18pt;
+    margin: 8px;
+}
+
+h4.footer {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.footer {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+p.footer {
+    margin: 8px;
+}
+
+div.copyright {
+    align-self: flex-start;
+    margin: 24px;
+}
+
+.col-list {
+    display: flex;
+}
+
+.item {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    font-size: large;
+    font-weight: 700;
+    color: #333355;
+}
+
+.price {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    font-size: large;
+    color: chocolate;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.contact {
+    align-self: center;
+}
+
+a.contact {
+    text-decoration: none;
+    color: #333355;
+}
+
+a.contact:hover {
+    background-color: #aaaaaa;
+    color: black;
+    padding: 16px;
+}
