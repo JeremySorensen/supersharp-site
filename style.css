@@ -5,7 +5,6 @@ body {
 
 h1 {
     font-weight: 700;
-    font-size: 36pt;
 }
 
 ul#top-nav {
@@ -89,14 +88,12 @@ footer {
 div.markets {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-self: center;
+    flex-wrap: wrap;
 }
 
 div.market {
     margin: 8px;
     flex-direction: column;
-    justify-content: center;
 }
 
 h2.footer {
@@ -105,7 +102,6 @@ h2.footer {
 
 h3.footer {
     align-self: center;
-    font-size: 18pt;
     margin: 8px;
 }
 
